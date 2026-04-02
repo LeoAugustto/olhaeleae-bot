@@ -41,11 +41,11 @@ Built with Python, `discord.py`, Docker, and deployed 24/7 on Oracle Cloud.
 
 ## Project structure
 
-- `bot.py` -> bot source code
-- `.env.example` -> environment template
-- `sounds/olha-ele-ae.mp3` -> default sound
-- `Dockerfile` -> container image
-- `docker-compose.yml` -> container orchestration
+- `bot.py` - bot source code
+- `.env.example` - environment template
+- `sounds/olha-ele-ae.mp3` - default sound
+- `Dockerfile` - container image
+- `docker-compose.yml` - container orchestration
 
 ## Environment example
 
