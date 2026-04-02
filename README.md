@@ -68,7 +68,7 @@ Add the bot to your server:
 Create a `.env` file based on `.env.example`:
 
 ```env
-BOT_TOKEN=COLE_AQUI_O_TOKEN_DO_BOT
+BOT_TOKEN=TOKEN
 SOUND_FILE=sounds/olha-ele-ae.mp3
 LOG_LEVEL=INFO
 DEBOUNCE_SECONDS=1.0
