@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+README.md
+start_bot.bat
+start_bot.sh
+.env.example

@@ -1,0 +1,9 @@
+services:
+  olhaeleae-bot:
+    build: .
+    container_name: olhaeleae-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./sounds:/app/sounds:ro

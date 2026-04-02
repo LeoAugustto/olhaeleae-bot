@@ -1,0 +1,57 @@
+OLHAELEAE BOT - GUIA RÁPIDO
+
+PASTA LOCAL
+C:\Projetos\olhaeleae_bot_Github
+
+RODAR LOCALMENTE
+1. Abrir terminal na pasta do projeto
+2. Rodar:
+   .venv\Scripts\activate.bat
+   python bot.py
+
+OU USAR
+start_bot.bat
+
+ATUALIZAR O BOT NA ORACLE
+1. No PC, editar os arquivos localmente
+2. Enviar a pasta:
+   scp -i "C:\Oracle\SUA-CHAVE.key" -r "C:\Projetos\olhaeleae_bot" ubuntu@SEU_IP_PUBLICO:~/
+3. Entrar na VM por SSH:
+   ssh -i "C:\Oracle\SUA-CHAVE.key" ubuntu@SEU_IP_PUBLICO
+4. Na Oracle, rodar:
+   cd ~/olhaeleae_bot
+   docker compose up -d --build
+
+COMANDOS ÚTEIS NA ORACLE
+Ver containers:
+docker ps
+
+Ver logs:
+cd ~/olhaeleae_bot
+docker compose logs -f
+
+Reiniciar:
+cd ~/olhaeleae_bot
+docker compose restart
+
+Parar:
+cd ~/olhaeleae_bot
+docker compose down
+
+Subir de novo:
+cd ~/olhaeleae_bot
+docker compose up -d
+
+Rebuildar:
+cd ~/olhaeleae_bot
+docker compose up -d --build
+
+SAIR DO SSH SEM DESLIGAR O BOT
+exit
+
+OBSERVAÇÕES
+- O bot roda 24/7 na Oracle Cloud
+- O áudio fica em:
+  sounds/olha-ele-ae.mp3
+- Depois de alterar bot.py ou o áudio, fazer rebuild
+- Não subir .venv para a Oracle
