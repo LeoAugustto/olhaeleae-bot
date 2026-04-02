@@ -1,10 +1,26 @@
 # OlhaEleAe Bot
 
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Docker](https://img.shields.io/badge/Docker-ready-2496ED)
+![Status](https://img.shields.io/badge/Deployed-24%2F7-success)
+
 A Discord bot that joins a voice channel when someone enters, plays a custom sound, and leaves automatically.
 
 Built with Python, `discord.py`, Docker, and deployed 24/7 on Oracle Cloud.
 
 > This project was built with AI assistance during planning, debugging, and deployment.
+
+## Quick start
+
+```bash
+pip install -r requirements.txt
+python bot.py
+```
+
+Add the bot to your server:
+
+[Add OlhaEleAe Bot](https://discord.com/oauth2/authorize?client_id=1489092018541166648)
 
 ## Features
 
@@ -91,7 +107,7 @@ start_bot.bat
 ./start_bot.sh
 ```
 
-## Docker / 24-7 deployment
+## Docker / 24/7 deployment
 
 ```bash
 docker compose up -d --build
@@ -108,12 +124,6 @@ Stop the bot:
 ```bash
 docker compose down
 ```
-
-## Invite the bot
-
-Add the bot to your server:
-
-[Add OlhaEleAe Bot](https://discord.com/oauth2/authorize?client_id=1489092018541166648)
 
 ## Notes
 
