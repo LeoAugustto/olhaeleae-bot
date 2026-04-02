@@ -15,7 +15,7 @@ start_bot.bat
 ATUALIZAR O BOT NA ORACLE
 1. No PC, editar os arquivos localmente
 2. Enviar a pasta:
-   scp -i "C:\Oracle\SUA-CHAVE.key" -r "C:\Projetos\olhaeleae_bot" ubuntu@SEU_IP_PUBLICO:~/
+   scp -i "C:\Oracle\SUA-CHAVE.key" -r "C:\Projetos\olhaeleae_bot_Github" ubuntu@SEU_IP_PUBLICO:~/
 3. Entrar na VM por SSH:
    ssh -i "C:\Oracle\SUA-CHAVE.key" ubuntu@SEU_IP_PUBLICO
 4. Na Oracle, rodar:

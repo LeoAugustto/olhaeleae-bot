@@ -113,7 +113,7 @@ docker compose down
 
 Add the bot to your server:
 
-https://discord.com/oauth2/authorize?client_id=1489092018541166648
+[Add OlhaEleAe Bot](https://discord.com/oauth2/authorize?client_id=1489092018541166648)
 
 ## Notes
 
